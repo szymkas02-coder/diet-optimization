@@ -1,0 +1,24 @@
+# Raw data — download separately (links in README)
+track-a-foundation-foods/data/
+track-b-fndds/data/
+
+# Generated CSVs — reproducible by running notebooks
+*.csv
+
+# Generated plots — reproducible by running notebooks
+*.png
+
+# Raw data files
+*.xlsx
+*.json
+*.xls
+
+# Python extracted scripts
+*.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
