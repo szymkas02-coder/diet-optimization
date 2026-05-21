@@ -137,3 +137,9 @@ This project is a companion to the [diet-optimization-usda](../diet-optimization
 | **Hardest ML boundary** | Fats vs. nuts/seeds | Fast food vs. mixed dishes |
 
 The semantic matching pipeline, nutrient normalization approach, and SHAP evaluation methodology are shared between both projects, defined once in Track A (A1) and adapted in Track B (B1, B2).
+
+---
+
+## License
+
+[MIT](../LICENSE) © 2026 szymkas02
