@@ -90,7 +90,7 @@ All metrics — confusion matrix, per-class accuracy, classification report, con
 - Random Forest and XGBoost both substantially exceed the majority-class baseline macro F1 (~0.01)
 - **Most separable groups:** dairy, eggs, beverages, fruits, vegetables — nutritionally very distinct from other categories
 - **Hardest groups:** `mixed_dishes` and `fast_food` — the highest confusion pair in the OOF matrix, confirming these categories are nutritionally nearly indistinguishable from nutrient density alone. This is a genuine finding: fast food and home-cooked mixed dishes have converged nutritionally in the FNDDS data
-- **SHAP:** protein density, fiber, and alcohol content are the most globally discriminative nutrients; per-class SHAP reveals that sodium and saturated fat strongly define `fast_food` and `processed_meat`, while fiber and potassium define `vegetables` and `fruits`
+- **SHAP:** fiber, protein, sodium, carbohydrate, and vitamin C are the most globally discriminative nutrients; per-class SHAP reveals that sodium and saturated fat strongly define `fast_food` and `processed_meat`, while fiber and potassium define `vegetables` and `fruits`
 - **Misclassification deep dives:** the most surprising OOF misclassifications reveal meals that genuinely bridge category boundaries — a nutritionally informative finding beyond the accuracy metric
 
 ---

@@ -62,10 +62,10 @@ With 20 objectives, Pareto optimality breaks down — ~80% of foods become non-d
 ## Key Results
 
 - **Legumes dominate the 3-objective Pareto front** (A3): low price, low CO2, high protein per 1000 kcal — robust across all four weighting scenarios
-- **TOPSIS top foods** (A6): fatty fish, eggs, and dark leafy vegetables consistently rank highest across all 20 objectives under equal weighting
-- **Diet sampling** (A6): group-diversity-constrained diets (one product per food group) achieve systematically higher TOPSIS scores than unconstrained random diets, confirming that dietary variety is nutritionally beneficial beyond individual food selection
-- **Classification** (A7): macro F1 well above baseline — most food groups are highly separable from nutrient density alone; the hardest classes to separate reveal genuine nutritional overlap (e.g., fats group confused with nuts/seeds)
-- **SHAP** (A7): protein density and fiber are the strongest positive TOPSIS drivers; sodium and saturated fat the strongest negative drivers — consistent across both the classifier and regressor SHAP rankings
+- **TOPSIS top foods** (A4): dark leafy vegetables (spinach, kale) rank 1–3; legumes (dry beans) dominate ranks 4–20; fatty fish (tuna, mahi mahi) appear at ranks 6–7
+- **Diet sampling** (A4): group-diversity-constrained diets (one product per food group) achieve systematically higher TOPSIS scores than unconstrained random diets, confirming that dietary variety is nutritionally beneficial beyond individual food selection
+- **Classification** (A5): macro F1 well above baseline — most food groups are highly separable from nutrient density alone; the hardest classes to separate reveal genuine nutritional overlap (e.g., fats group confused with nuts/seeds)
+- **SHAP** (A5): for TOPSIS score regression, top drivers are magnesium, total sugars, iron, saturated fat, and polyunsaturated fat; protein (6th) and fiber (7th) follow. For food group classification, top drivers are carbohydrate, calcium, protein, potassium, and sodium
 
 ---
 
